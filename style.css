@@ -8,7 +8,7 @@
 }
 
 html {
-    color: #333;
+    color: #000;
     font-family: 'Kanit', sans-serif;
 }
 
@@ -30,15 +30,17 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 1062px;
+    height: 674px;
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    box-sizing: border-box; /* Incluir o preenchimento na altura total */
 }
 
 .card .card_content{
     flex: 1;
-    padding: 20px;
-    text-align: center;
+    padding: 0 100px;
+    text-align: left;;
 }
 
 h2 {
@@ -51,6 +53,8 @@ p {
     font-size: 16px;
     color: #666;
     margin-bottom: 20px;
+    line-height: 24px;
+    font-weight: 400;
 }
 
 button {
@@ -61,11 +65,12 @@ button {
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: .2s;
 }
 
 button:hover {
-    background-color: #0056b3;
+    box-shadow: 0px 0px 8px #00ff089c;
+    transform: scale(1.05);
 }
 
 
@@ -76,12 +81,24 @@ button:hover {
 
 .card_product {
     flex: 1;
+    background: linear-gradient(-5deg, #10131D 300px, #FFEC42 300px);
+    box-sizing: border-box; 
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
-img {
+.card_product img{
     width: 488px;
     border-radius: 8px;
     margin-bottom: 10px;
+    position: relative;
+    transition: .2s;
+}
+
+.card_product img:hover{
+    transform: scale(1.5) rotate(5deg);
 }
 
