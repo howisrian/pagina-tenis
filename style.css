@@ -81,7 +81,7 @@ button:hover {
     border-radius: 8px;
     margin-bottom: 10px;
     position: relative;
-    transition: .3s;
+    transition: .5s;
 }
 .card_product img:hover{
     transform: scale(1.4) rotate(5deg);
