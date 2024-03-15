@@ -1,6 +1,7 @@
 
 # Sobre o projeto
 
+https://howisrian.github.io/pagina-tenis/
 
 Projeto construido com o intuito de treinar minhas habilidades, layout obtido no desafio do [DevMentor](https://www.devmentor.com.br/challenge/landing-page-tenis-nike)
 
@@ -11,6 +12,7 @@ Projeto construido com o intuito de treinar minhas habilidades, layout obtido no
 ### Inicio
 ![Inicio section](.github/Layoutpag.jpeg)
 
+![Layout base](.github/Layoutpag.jpeg)
 
 # Tecnologias utilizadas
 - HTML
