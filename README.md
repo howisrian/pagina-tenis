@@ -12,7 +12,7 @@ Projeto construido com o intuito de treinar minhas habilidades, layout obtido no
 ### Inicio
 ![Inicio section](.github/Layoutpag.jpeg)
 
-![Layout base](.github/Layoutpag.jpeg)
+![Layout base](.github/Layout.jpeg)
 
 # Tecnologias utilizadas
 - HTML
